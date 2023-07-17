@@ -1,0 +1,21 @@
+body {
+    animation: changeBg 1s infinite alternate linear;
+}
+@keyframes changeBg {
+    0% {
+        background: #ee6055;
+        text-align: left;
+    }
+    25% {
+        background: #60d394;
+        text-align: center;
+    }
+    50% {
+        background: #aaf683;
+        text-align: right;
+    }
+    100% {
+        background: #ff9685;
+        text-align: left;
+    }
+}

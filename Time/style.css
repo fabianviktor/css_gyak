@@ -1,0 +1,17 @@
+@function gray($color){
+    @return rgb($color, $color, $color);
+}
+body{
+    background-color: gray(30);
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+
+    input, h1, a, span {
+        color: grey(90);
+        font-family: 'Rubik', sans-serif;
+        font-weight: 400;
+        margin: 0px;
+        padding: 0px;
+    }
+}
